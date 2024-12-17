@@ -8,12 +8,16 @@
     "CreatedBy": "Qoobit Productions Inc.",
     "CreatedByURL": "https://www.fab.com/sellers/QOOBIT",
     "DocsURL": "https://docs.google.com/document/d/1tNa_txBdT5NxV8cv5hSf5uJQdP3NAW4Owsbem1RtQ5A",
-    "MarketplaceURL": "https://www.fab.com/portal/listings/e168599b-3f2a-42ac-af78-5767df6b0395",
+    "FabURL": "com.epicgames.launcher://ue/Fab/product/e168599b-3f2a-42ac-af78-5767df6b0395",
     "SupportURL": "https://www.qoobit.com",
     "Installed": true,
     "EngineVersion": "5.4.0",
     "CanContainContent": true,
     "IsExperimentalVersion": false,
+    "PlatformAllowList": [
+        "Win64",
+        "Win32"
+    ],
 	"Plugins": [
 		{
 			"Name": "PythonScriptPlugin",
