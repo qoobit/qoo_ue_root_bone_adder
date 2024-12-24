@@ -14,14 +14,21 @@
     "EngineVersion": "5.4.0",
     "CanContainContent": true,
     "IsExperimentalVersion": false,
+    "Modules": [
+        {
+            "Name": "QOO_RootBoneAdder",
+            "Type": "Editor",
+            "LoadingPhase": "PreLoadingScreen"
+        }
+    ],
     "PlatformAllowList": [
         "Win64",
         "Win32"
     ],
-	"Plugins": [
-		{
-			"Name": "PythonScriptPlugin",
-			"Enabled": true
-		}
-	]
+    "Plugins": [
+        {
+            "Name": "PythonScriptPlugin",
+            "Enabled": true
+        }
+    ]
 }
