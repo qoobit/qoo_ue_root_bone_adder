@@ -27,9 +27,20 @@ public class QOO_RootBoneAdder : ModuleRules
 			{
 				"Core",
 				// ... add other public dependencies that you statically link with here ...
+
 			}
 			);
 			
+		
+		if (Target.bBuildEditor)
+		{
+			PublicDependencyModuleNames.AddRange(new string[]
+			{
+				"PythonScriptPlugin",
+				"Blutility",
+				"UMGEditor",
+			});
+		}
 		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
@@ -39,8 +50,17 @@ public class QOO_RootBoneAdder : ModuleRules
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
+
 			}
 			);
+
+		if (Target.bBuildEditor)
+		{
+			PrivateDependencyModuleNames.AddRange(new string[]
+			{				
+				
+			});
+		}
 		
 		
 		DynamicallyLoadedModuleNames.AddRange(

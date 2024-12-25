@@ -1,6 +1,6 @@
 // Copyright Qoobit Productions Inc. All Rights Reserved.
 #include "QOO_RootBoneAdder.h"
-
+#include "QOO_RootBoneAdderBPLibrary.h"
 #if WITH_EDITOR
 #include "ISettingsModule.h"
 #endif
